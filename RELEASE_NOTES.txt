@@ -1,0 +1,40 @@
+YOUTUBE CLIPPER 1.1.0 PREVIEW 2
+Created by Brandon Baird
+Prepared October 27, 2026
+
+PLAIN-TEXT DOCUMENTATION REVISION
+
+The user-facing readme, dependency notes, third-party notices and release
+notes now use .txt files that open in Notepad. The PDF screenshot guide
+remains included. The package self-check was updated for the new filenames.
+The downloader and audio-repair behavior are unchanged.
+
+FEATURES
+
+- Full-video and precise-range YouTube downloads.
+- MP4, MKV, WebM, MP3, M4A, FLAC, WAV and original-audio output.
+- Optional phase-safe dual-mono repair for stereo cancellation.
+- Created by Brandon Baird in the app footer, credits and executable details.
+- Desktop shortcut button and illustrated PDF guide.
+- Bundled Python, Tk, FFmpeg, QuickJS and supporting runtime libraries.
+- yt-dlp 2026.10.26 and refreshed supporting dependencies.
+
+VALIDATION
+
+The original October 27 release checks passed 54 unit tests, seven output
+conversion formats, live ten-second MP4/MP3/original-audio downloads,
+bundled runtime checks and synthetic audio-cancellation repair.
+Those earlier functional results apply to the unchanged download code.
+The documentation revision is checked for readable text, package contents
+and updated extracted-package diagnostics before upload.
+
+STATUS
+
+Unsigned Windows x64 preview. Intended for 64-bit Windows 10/11.
+Separate clean-machine qualification has not been run. Windows or an
+organization's security policy may warn or block unsigned programs.
+Mac builds are not included. YouTube changes can require a future update;
+private, restricted or removed videos are not guaranteed to download.
+
+Download only media you have permission to save. Keep the bundled
+third-party notices and licenses with redistributed copies.

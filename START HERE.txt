@@ -1,0 +1,30 @@
+YOUTUBE CLIPPER
+Created by Brandon Baird
+
+1. Right-click the downloaded ZIP and choose Extract All.
+2. Keep the whole extracted folder in a location you want to keep.
+3. Open that folder and double-click YouTube Clipper.exe.
+4. Click Desktop shortcut at the bottom of the app if you want one.
+
+Do not run the program from inside the ZIP. Keep the runtime folder
+beside the executable. No Python, FFmpeg, Node.js or other installation
+is needed. No administrator access or system setting changes are needed.
+
+Open YouTube Clipper - User Guide.pdf for illustrated instructions.
+You can also click User guide (PDF) at the bottom of the application.
+
+TO DOWNLOAD
+Paste a YouTube link, click Analyze, choose the full video or a start/end
+time, choose a format and destination, and click Download.
+
+FOR VOICES THAT DISAPPEAR ON PHONES OR MONO SPEAKERS
+Enable Fix stereo cancellation by using phase-safe dual mono.
+This copies the first audio channel to both sides. Leave it off for
+normal stereo. Best available - original audio cannot apply this fix.
+
+This build is for 64-bit Windows 10/11. Internet is needed for YouTube.
+The app is unsigned; Windows may show an unknown-publisher warning.
+Managed PCs may block unsigned apps. Do not disable security settings.
+Download only media you have permission to save.
+
+This is version 1.1.0 Preview 2. Mac packages are not included.

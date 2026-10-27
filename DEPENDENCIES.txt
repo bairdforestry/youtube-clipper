@@ -1,0 +1,26 @@
+BUNDLED DEPENDENCIES
+
+Everything below is included with the Windows portable application.
+End users do not install these components separately.
+
+Python 3.11.9 and Tcl/Tk 8.6: application runtime and desktop interface.
+yt-dlp 2026.10.26: YouTube extraction and download engine.
+yt-dlp-ejs 0.8.0: companion JavaScript challenge scripts.
+QuickJS-NG 0.15.1: JavaScript runtime.
+imageio-ffmpeg 0.6.0 with Windows FFmpeg 7.1: media conversion.
+Certificate data and supporting Python/native libraries are also bundled.
+
+The dependency set includes Brotli 1.2.1, certifi 2026.10.23,
+curl-cffi 0.17.0 and cffi 2.1.1. Complete versions and license metadata
+are recorded in DEPENDENCY_INVENTORY.json for technical reference.
+
+Bundled diagnostics check runtime imports, encoders, JavaScript execution,
+media conversion and stereo-cancellation repair. They require FFmpeg and
+QuickJS to resolve inside the application folder. Extracted-package
+verification also removes developer runtime locations from PATH.
+
+FFMPEG_CONFIGURATION.txt records the actual FFmpeg build configuration
+and license output. The licenses folder contains dependency license texts.
+
+This package is for Windows x64. Separate Mac and Linux build recipes
+exist in the development project, but native builds have not been run here.

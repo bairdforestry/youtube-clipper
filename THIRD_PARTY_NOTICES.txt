@@ -1,0 +1,66 @@
+Third-party notices
+
+YouTube Clipper v1.1 Preview artifacts bundle or use the projects below. Exact
+locked versions, wheel hashes, project metadata, and copied license-file
+hashes are recorded in DEPENDENCY_INVENTORY.json and
+licenses/PYTHON_LICENSE_FILES.json inside each Preview archive.
+
+Application runtimes
+
+- CPython (https://www.python.org/) - Python Software Foundation License.
+- Tcl/Tk (https://www.tcl.tk/) - BSD-style terms.
+- yt-dlp (https://github.com/yt-dlp/yt-dlp) - The Unlicense.
+- yt-dlp-ejs (https://github.com/yt-dlp/ejs) - Unlicense, MIT, and ISC
+components.
+- imageio-ffmpeg (https://github.com/imageio/imageio-ffmpeg) - BSD-2-Clause.
+- QuickJS-NG (https://github.com/quickjs-ng/quickjs) - MIT. The reviewed
+license is packaged as licenses/QuickJS-NG.txt.
+- FFmpeg (https://ffmpeg.org/) - the terms applicable to each target binary
+and its enabled components. Each archive includes the exact binary's -version,
+-buildconf, and -L output in FFMPEG_CONFIGURATION.txt. The locally proven
+Windows build enables GPL components including x264; consult FFmpeg's legal
+page (https://ffmpeg.org/legal.html).
+
+Locked Python runtime packages
+
+The Preview dependency policy also contains:
+
+Package: Declared license
+Brotli: MIT
+certifi: MPL-2.0
+charset-normalizer: MIT
+idna: BSD-3-Clause
+Mutagen: GPL-2.0-or-later
+PyCryptodomeX: BSD/Public-Domain components
+Requests: Apache-2.0
+urllib3: MIT
+websockets: BSD-3-Clause
+curl-cffi: MIT
+cffi: MIT
+pycparser: BSD-3-Clause
+Rich: MIT
+markdown-it-py: MIT plus bundled markdown-it license material
+mdurl: MIT
+Pygments: BSD-2-Clause
+
+The staged license directory is generated from the exact installed,
+hash-locked wheels rather than from a separately guessed list. curl-cffi
+embeds native curl/BoringSSL-related code; the wheel exposes the curl-cffi MIT
+file, but a distributor must confirm all notices and obligations for the exact
+embedded native bytes before public release.
+
+Build tooling
+
+PyInstaller (https://pyinstaller.org/) is GPLv2-or-later with its bootloader
+distribution exception. Other build-only packages and their metadata are
+listed in DEPENDENCY_INVENTORY.json; they are not intentionally application
+runtime dependencies.
+
+Redistribution boundary
+
+Third-party components retain their original licenses. The bundled license
+files and FFmpeg configuration identify the included components; the creator
+credit does not replace those notices. Relevant source projects are linked
+above. Keep these notices and the licenses folder with redistributed copies.
+Any further redistribution must comply with the applicable licenses, including
+corresponding-source requirements for GPL components.

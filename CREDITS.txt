@@ -1,0 +1,10 @@
+YouTube Clipper
+Created by Brandon Baird
+
+Application design, workflow and project direction: Brandon Baird.
+
+Built with Python, Tcl/Tk, yt-dlp, yt-dlp-ejs, FFmpeg,
+imageio-ffmpeg, QuickJS-NG and the supporting libraries listed in
+DEPENDENCY_INVENTORY.json. Their respective authors retain their rights.
+
+See THIRD_PARTY_NOTICES.txt and the licenses folder for acknowledgments.
